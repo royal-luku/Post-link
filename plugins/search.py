@@ -17,7 +17,7 @@ async def search(bot, message):
     if message.text.startswith("/"):
        return    
     query   = message.text 
-    head    = "<b><i>Hᴇʀᴇ Aʀᴇ Tʜᴇ Rᴇsᴜʟᴛs Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ! 👇</i></b>\n\n"
+    head    = "<b><i>Here Are The Results Of Your Query 👇\n\nShare And Support ❤</i></b>\n\n"
     results = ""
     try:
        for channel in channels:
@@ -32,7 +32,7 @@ async def search(bot, message):
           for movie in movies: 
               buttons.append([InlineKeyboardButton(movie['title'], callback_data=f"recheck_{movie['id']}")])
           msg = await message.reply_photo(photo="https://telegra.ph/file/7ffd2b6a1bdb980511c3a.jpg",
-                                          caption="<b><I>I Couldn't find anything related to Your Query 😕.\nDid you mean any of these?</I></b>", 
+                                          caption="<b><I>Hey, Sorry! 😞\n\nI Couldn't find anything related To Your Query 😕.\n\nDid you mean any of these?</I></b>", 
                                           reply_markup=InlineKeyboardMarkup(buttons))
        else:
           msg = await message.reply_text(text=head+results, disable_web_page_preview=True)
