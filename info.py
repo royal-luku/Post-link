@@ -1,8 +1,8 @@
-API_ID       = 13556430
-API_HASH     = "3531771c0d58b9ffc44d12f38c5edbf5"
-BOT_TOKEN    = "6140076272:AAFho6ylq7KKUNfGCDIeOudCFINQ6w8YMbk"
-SESSION      = "BQDO2s4Afmta4jxyi80TriJgFreuU1zxPN9jEmeLbUGaQ9nSheGULQvFuDoP0zkm6voiZirIeMOSIWmEfBTFjWqmAwtu9XVQdg3ifMPisZkniX03zO5w16TYTcHhi20Mmhx61zI7UdbnFnWIEZbwYpSAi8yiyB0OlQIpLxB398_d5PJ3M8tM17pOaMQ_UYCaKd9BqdS-s1Kro-ESZQGEQFXluj1-eVTnoysU8pv6DUwSRU-0aueKMWngX6M4q7Zu9AHT8XQhXtDURFtZtR--gyOPtPBEyiNL5p7e0YWe0d67WgUCy4qepRqbq11fEARA0MuSsGGeAdPBksC_bsl-rJjuWhORjAAAAABqQ-a6AA"
-DATABASE_URI = "mongodb+srv://RoyalDwip:RoyalDwip@cluster0.0sp6pvf.mongodb.net/?retryWrites=true&w=majority"
-LOG_CHANNEL  = -1001976813589
-ADMIN        = 1782834874
-CHANNEL      = "@WorldOfMovies8"
+API_ID       = 
+API_HASH     = ""
+BOT_TOKEN    = ""
+SESSION      = ""
+DATABASE_URI = ""
+LOG_CHANNEL  = 
+ADMIN        = 
+CHANNEL      = ""
